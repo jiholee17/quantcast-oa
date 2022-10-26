@@ -70,6 +70,9 @@ public class MostActiveCookie {
         return cookieMap;
     }
 
+    /**
+     * Returns a string representation of the date a cookie occurred on.
+     */
     public static String getDate(String[] tokens) {
         String date = tokens[1].substring(0, tokens[1].indexOf('T'));
         return date;
